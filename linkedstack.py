@@ -4,7 +4,7 @@ __author__ = 'tnb'
 class Empty(Exception):
     pass
 
-class LinkedStack:
+class LinkedStack(object):
     class _Node:
         __slots__ = '_element', '_next'
         def __init__(self, element, next):

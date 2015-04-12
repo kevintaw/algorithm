@@ -1,6 +1,6 @@
 __author__ = 'tnb'
 
-class _DoublyLinkedBase:
+class _DoublyLinkedBase(object):
 
     class _Node:
         __slots__ = '_element', '_prev', '_next'
